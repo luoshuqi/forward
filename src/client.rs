@@ -19,8 +19,8 @@ use tokio_rustls::TlsConnector;
 
 use crate::protocol::{unexpected_cmd, Accept, Command, Connection, Id, Register};
 use crate::util::async_drop::Dropper;
-use crate::util::copy::copy_bidirectional;
 use crate::util::error::StrError;
+use crate::util::io::copy_bidirectional;
 use crate::util::select::{select, Either};
 use crate::util::signal::catch_signal;
 

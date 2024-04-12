@@ -1,5 +1,5 @@
 pub mod async_drop;
-pub mod copy;
 pub mod error;
+pub mod io;
 pub mod select;
 pub mod signal;
