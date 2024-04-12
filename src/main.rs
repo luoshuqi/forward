@@ -23,9 +23,9 @@ async fn main() {
 
 #[derive(StructOpt)]
 enum Options {
-    /// 启动客户端
+    /// 客户端
     Client(client::Options),
-    /// 启动服务端
+    /// 服务端
     Server(server::Options),
 }
 
